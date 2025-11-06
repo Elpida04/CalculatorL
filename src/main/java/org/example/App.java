@@ -21,7 +21,10 @@ public class App
 
         }
         else if (operation.equals("-")) {
-            
+
+            afairesh a=new afairesh();
+            System.out.print(a.calculate(num1,num2) );
+
         }
         else if (operation.equals("*")) {
 
